@@ -8,9 +8,6 @@ const percent = document.querySelectorAll('.percebt');
 
 
 
-
-
-
 let firstValue = "";
 let isFirstValue = false;
 let secondValue = "";
@@ -104,4 +101,15 @@ percent.addEventListener('click', () => {
     }
 
     resultado.innerHTML = resuladoValue;
+})
+
+clear.addEventListener('click', () => {
+    resultado.innerHTML - 0;
+
+    firstValue = "";
+    isFirstValue - false;
+    secondValue = "";
+    isSecondValue - false;
+    sign - "";
+    resuladoValue = 0;
 })
